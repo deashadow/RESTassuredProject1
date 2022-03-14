@@ -1,0 +1,24 @@
+package files;
+//This is where all the package JSON will go!!
+public class PayLoad {
+
+    public static String AddPlace(){
+
+        return "{\n" +
+                "  \"location\": {\n" +
+                "    \"lat\": -38.383494,\n" +
+                "    \"lng\": 33.427362\n" +
+                "  },\n" +
+                "  \"accuracy\": 50,\n" +
+                "  \"name\": \"Rons house 1\",\n" +
+                "  \"phone_number\": \"(+91) 983 893 3937\",\n" +
+                "  \"address\": \"29, side layout, cohen 09\",\n" +
+                "  \"types\": [\n" +
+                "    \"shoe park\",\n" +
+                "    \"shop\"\n" +
+                "  ],\n" +
+                "  \"website\": \"https://rahulshettyacademy.com\",\n" +
+                "  \"language\": \"French-IN\"\n" +
+                "}\n";
+    }
+}
